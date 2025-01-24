@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from GPT2_Small import get_response
+from models.GPT2_Small import get_response
 
 app = Flask(__name__)
 
