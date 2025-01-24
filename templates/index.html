@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Project Shop</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="/static/logo.png" alt="Logo" class="logo">
+        <h1>AI Project Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="/static/banner.png" alt="Banner" class="banner">        
+        <div class="container content">
+            <h2>Welcome to the AI Project Shop. Explore our projects and get in touch!</h2>
+            <p>At the AI Project Shop, we are passionate about harnessing the power of artificial intelligence to create innovative solutions that drive progress and transform industries. Our team of experts is dedicated to developing cutting-edge AI projects that address real-world challenges and open up new possibilities.</p>
+    
+            <h3>Our Projects</h3>
+            <p>We offer a diverse range of AI projects, each meticulously crafted to meet the highest standards of quality and performance. Whether you're looking for advanced machine learning models, natural language processing tools, or computer vision applications, we have something to suit your needs. Our projects are designed to be easily integrated into your existing systems, ensuring a seamless and efficient implementation.</p>
+    
+            <h3>Why Choose Us?</h3>
+            <ul>
+                <li><strong>Expertise</strong>: Our team consists of seasoned AI professionals with extensive experience in various domains of artificial intelligence.</li>
+                <li><strong>Innovation</strong>: We stay at the forefront of AI research and development, constantly exploring new techniques and technologies to enhance our offerings.</li>
+                <li><strong>Customization</strong>: We understand that every project is unique. That's why we offer tailored solutions to meet your specific requirements.</li>
+                <li><strong>Support</strong>: Our commitment to your success doesn't end with the delivery of a project. We provide ongoing support to ensure you get the most out of our solutions.</li>
+            </ul>
+    
+            <h3>Get in Touch</h3>
+            <p>We are excited to collaborate with you and help bring your AI vision to life. Whether you have a specific project in mind or need guidance on how to leverage AI for your business, our team is here to assist you. Contact us today to learn more about our projects and how we can work together to achieve your goals.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AI Project Shop. All rights reserved.</p>
+    </footer>
+
+    <div class="chat-toggle" id="chatToggle">
+        <img src="/static/chatbot.png" alt="Chat">
+    </div>
+
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+            <img src="/static/chatbot.png" alt="Chatbot" class="chatbot-image">
+            <div>
+                <h2>AI Project Shop</h2>
+                <span class="status">● Online</span>
+            </div>
+            <button class="close-btn" id="closeChat">×</button>
+        </div>
+        <div class="chat-box" id="chatBox">            
+            <div class="bot-message">
+                <img src="/static/chatbot.png" alt="Bot" class="bot-avatar">             
+                Hi! How can I help you today?                
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userMessage" placeholder="Type your message...">
+            <button id="voiceBtn"><img src="/static/mic-btn2.png" alt="Voice"></button>
+            <button id="sendBtn"><img src="/static/send-btn3.png" alt="Send"></button>
+        </div>
+    </div>
+
+    <script src="/static/scripts.js"></script>
+</body>
+</html>
